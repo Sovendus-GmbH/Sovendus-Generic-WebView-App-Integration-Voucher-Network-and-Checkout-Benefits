@@ -22,6 +22,7 @@
            orderValue: "$netOrderValue",
            orderCurrency: "$currencyCode",
            usedCouponCode: "$usedCouponCode",
+           integrationType: "genericwebview-1.0.1"
          });
          window.sovConsumer = {
            consumerSalutation: "$salutation",
