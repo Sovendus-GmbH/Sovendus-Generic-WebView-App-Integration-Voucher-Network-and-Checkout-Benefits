@@ -139,7 +139,7 @@
    });
    ```
 
-4. The height of your native componenent should be based on the height of the body inside the webview. You can achieve this by adding a resize observer on the body inside the webview. For example like that:
+4. The height of your native component should be based on the height of the body inside the webview. You can achieve this by adding a resize observer on the body inside the webview. For example like that:
    ```javascript
    const _body = document.getElementById("body");
    new ResizeObserver(() => {
