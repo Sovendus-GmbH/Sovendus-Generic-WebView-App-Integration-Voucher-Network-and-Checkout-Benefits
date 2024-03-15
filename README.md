@@ -20,7 +20,7 @@ This documentation is for mobile Apps where the order success page is based on a
            orderValue: "$netOrderValue",
            orderCurrency: "$currencyCode",
            usedCouponCode: "$usedCouponCode",
-           integrationType: "genericwebview-1.0.1",
+           integrationType: "genericwebview-1.1.0",
          });
          window.sovConsumer = {
            consumerSalutation: "$salutation",
