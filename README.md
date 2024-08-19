@@ -49,7 +49,7 @@ This documentation is for mobile Apps where the order success page is based on a
 4. Clicks on external links need to be prevented and forwarded to the native browser. Make sure the navigation requests of following url patterns are prevented:
 
    ```dart
-   url_path != "/banner/api/banner" && !url_path.startsWith("/app-list/") && url_path != "blank";
+   url_path != "/banner/api/banner" && !url_path.startsWith("/app-list") && url_path != "blank";
    ```
 
 5. Forward navigation requests to the native browser, this can be done with one of the following ways:\
