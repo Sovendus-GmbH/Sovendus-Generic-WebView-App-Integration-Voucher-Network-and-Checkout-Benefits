@@ -29,6 +29,7 @@ This documentation is for mobile Apps where the order success page is based on a
            consumerEmail: "$email",
            consumerPhone: "$phone",
            consumerYearOfBirth: "$yearOfBirth",
+           consumerDateOfBirth: "01.12.2020",
            consumerStreet: "$street",
            consumerStreetNumber: "$streetNumber",
            consumerZipcode: "$zipcode",
