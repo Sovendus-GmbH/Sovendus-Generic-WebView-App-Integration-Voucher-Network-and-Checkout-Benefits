@@ -7,20 +7,20 @@ This documentation is for mobile Apps where the order success page is based on a
    <!DOCTYPE html>
    <html>
      <body>
-       <div id="sovendus-voucher-banner"></div>
+       <div id="sovendus-container"></div>
        <script type="text/javascript">
          window.sovIframes = window.sovIframes || [];
          window.sovIframes.push({
            trafficSourceNumber: "$trafficSourceNumber",
-           trafficMediumNumber: "$trafficMediumNumberVoucherNetwork",
-           iframeContainerId: "sovendus-voucher-banner",
+           trafficMediumNumber: "$trafficMediumNumber",
+           iframeContainerId: "sovendus-container",
            timestamp: "$orderUnixTime",
            sessionId: "$sessionId",
            orderId: "$orderId",
            orderValue: "$netOrderValue",
            orderCurrency: "$currencyCode",
            usedCouponCode: "$usedCouponCode",
-           integrationType: "genericwebview-1.1.0",
+           integrationType: "genericwebview-1.1.1",
          });
          window.sovConsumer = {
            consumerSalutation: "$salutation",
@@ -29,7 +29,7 @@ This documentation is for mobile Apps where the order success page is based on a
            consumerEmail: "$email",
            consumerPhone: "$phone",
            consumerYearOfBirth: "$yearOfBirth",
-           consumerDateOfBirth: "01.12.2020",
+           consumerDateOfBirth: "$yearOfBirth",
            consumerStreet: "$street",
            consumerStreetNumber: "$streetNumber",
            consumerZipcode: "$zipcode",
